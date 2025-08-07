@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+h3 {
+    font-size: 1.5em;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* .blog2 {
+    display: none;
+} */
+/* .blog3 {
+    visibility: hidden;
+} */
+
+.header {
+    color: white;
+    height: 300px;
+    /* text-align: center; */
+    display: flex;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    /* background-image: url('header.jpg'); */
+    background-image: url('./Images-2/website.png');
+    /* background-image: url('/Mod-1/Images/download.png'); */
+    /* background-repeat: no-repeat; no-repeat for single instance */
+    /* background-repeat: repeat-x; repeat-x for horizontal repeat */
+    /* background-size: cover; cover to fill the entire area */
+    /* background-size: contain; contain to fit the image within the area */
+    /* background-size: 500px; specific size */
+    background-size: 500px 300px; /* specific size */
+
+    /* background-position: center; center the image in the header */
+    /* display: flex; flexbox for layout */
+    /* justify-content: center; center the content horizontally */
+    /* align-items: center; center the content vertically */
+}
+
+.blog10 {
+    /* background-color: lightgray; */
+    color: rgb(221, 6, 6);
+    background-image: url('/Mod-1/Images/anime.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    border: 1em solid green;
+    background-position: 0 0;
+
+    border-top: 20px solid salmon;
+    border-bottom: 20px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    width: 90%;
+    height: 500px;
+}
+.blog11 {
+    /* background-color: lightgray; */
+    color: rgb(221, 6, 6);
+    background-image: url('/Mod-1/Images/anime.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    border: 1em solid green;
+    background-position: 50% 50%;
+
+    border-top: 20px solid salmon;
+    border-bottom: 20px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    width: 90%;
+    height: 500px;
+}
+.blog12 {
+    /* background-color: lightgray; */
+    color: rgb(221, 6, 6);
+    background-image: url('/Mod-1/Images/anime.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    border: 1em solid green;
+    background-position: 100% 100%;
+
+    border-top: 20px solid salmon;
+    border-bottom: 20px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    width: 90%;
+    height: 500px;
+}
+.blog13 {
+    /* background-color: lightgray; */
+    color: rgb(221, 6, 6);
+    background-image: url('/Mod-1/Images/anime.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1em solid green;
+    /* background-position: 50% 0; */
+
+    border-top: 20px solid salmon;
+    border-bottom: 20px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    width: 90%;
+    height: 500px;
+}
+
+.blog2 {
+    color: white;
+    background-image: url('/Mod-2\ CSS/header.jpg');
+    height: 250px;
+    /* background-position: left top; */
+    /* background-color: lightgray; */
+    /* border: 1em solid green; */
+    border-top: 20px solid salmon;
+    border-right: 20px solid green;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.blog3 {
+    background-color: lightgray;
+    border: 20px solid green;
+    border-bottom: 10px solid blue;
+    margin: 10px 50px;
+    /* top and bottom 10px, left and right 50px */
+    padding: 10px 50px;
+    /* top and bottom 10px, left and right 50px */
+    text-align: justify;
+}
+
+.blog4 {
+    background-color: lightgray;
+    border: 20px dashed green;
+    border-bottom: 20px dotted blue;
+    margin: 10px 25px 20px;
+    /* top, right-left, bottom */
+    text-align: justify;
+    padding: 10px 25px 40px;
+    /* top, right-left, bottom */
+    box-shadow: 10px 10px 20px green;
+    /* horizontal vertical blur */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.blog5 {
+    background-color: lightgray;
+    border: 20px dashed green;
+    border-bottom: 10px dotted blue;
+    margin: 10px 25px 10px 50px;
+    /* top, right, bottom, left */
+    text-align: justify;
+    padding: 10px 25px 20px 50px;
+    /* top, right, bottom, left */
+
+}
+
+.try1 {
+    border: 2px solid red;
+    height: 200px;
+}
+
+.try2 {
+    border: 2px solid red;
+    height: 200px;
+    display: block;
+}
+
+.li1 {
+    margin: 20px;
+    color: darkblue;
+    display: block; /* block takes full width */
+    text-decoration: underline;
+    
+}
+.li2 {
+    margin: 10%;
+    color: darkblue;
+    display: flex; /* inline-block allows width and height to be set */
+}
+.li3 {
+    margin: 20%;
+    color: darkblue;
+    display: inline; /* inline-block allows width and height to be set */
+}
+.li4 {
+    margin: 20%;
+    color: darkblue;
+    display: inline-block; /* inline-block allows width and height to be set */
+}
+.dolor {
+    color: red;
+    font-weight: bold;
+    border: 2px solid black;
+    height: 60px; /* height is set to 60px */
+    display: inline-block; /* inline-block allows height and width to be set */
+}
+.dolor2 {
+    color: red;
+    font-weight: bold;
+    border: 2px solid black;
+    height: 60px;
+    display: block; /* block takes full width */
+}
+.display01 {
+    margin: 10%;
+    padding: 20px;
+    border: 10px solid blue;
+    display: block;
+}
+.display02 {
+    margin: 10%;
+    padding: 20px;
+    border: 10px solid blue;
+    /* display: inline; */
+}
+.display03 {
+    margin: 10%;
+    padding: 20px;
+    border: 10px solid blue;
+    display: inline-block; 
+}

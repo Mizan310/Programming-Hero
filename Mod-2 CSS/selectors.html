@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        /* * {
+            margin: 0;
+
+        } */
+
+        /* p {
+            color: red;
+        } */
+
+        #fifth,
+        li {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .holud,
+        .yellow {
+            background-color: yellow;
+        }
+
+        .bold {
+            font-weight: 800;
+        }
+
+        input[type="text"] {
+            font-size: 30px;
+            color: blue;
+        }
+
+        .css {
+            color: green;
+            font-weight: bolder;
+        }
+        .blog {
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Exploring Mixed Selectors</h3>
+    <p>My First <span class="css">line CSS</span></p>
+    <p class="yellow">My Second line CSS</p>
+    <p>My Third line CSS</p>
+    <p class="yellow bold">My Fourth line CSS</p>
+    <p class="holud" id="fifth">My Fifth line CSS</p>
+    <p>My Sixth line CSS</p>
+    <p>My Seventh line CSS</p>
+    <ol>
+        <li>Element Selector</li>
+        <li class="bold holud">ID Selector</li>
+        <li>Class Selector</li>
+        <li>Universal Selector</li>
+    </ol>
+    <form action="">
+        <input type="text" placeholder="Enter your name" class="yellow" name="" id="fifth"> <br>
+        <input type="password" placeholder="Enter your password" name="" id="fifth">
+    </form>
+    <div class="blog">
+        <h3>My Blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet temporibus repellendus suscipit autem eos
+            minima ducimus? Sequi totam praesentium quibusdam quaerat suscipit earum, nobis voluptatum optio ab nesciunt
+            temporibus quae!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore temporibus provident quas veritatis illo
+            consequuntur fugiat laboriosam commodi voluptate esse. Reprehenderit sit animi, amet nisi alias ullam
+            repudiandae suscipit tempora.</p>
+    </div>
+</body>
+
+</html>
