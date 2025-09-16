@@ -1,0 +1,31 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* day, date e height e amra change na kore evabeo korte pari */
+    grid-template-rows: 30px repeat(5, 50px);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date {
+    display: grid;
+    background-color: skyblue;
+    border-radius: 5px;
+    font-size: 1.5em;
+    /* We can use both */
+    /* justify-items: center; */
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+}
+
+.day {
+    /* display: grid; */
+    /* justify-items: center; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 21, 21);
+    border-radius: 5px;
+    font-size: 1em;
+    align-items: center;
+    /* height: 5vh; */
+}

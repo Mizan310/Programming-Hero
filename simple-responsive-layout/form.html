@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            /* gap: 20px; */
+            align-items: center;
+            border: 2px solid blue;
+            background-color: aqua;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: black;
+            /* gap: 40px; */
+        }
+        
+        .a-link-1,
+        .a-link-2 {
+            display: flex;
+            gap: 60px;
+            /* padding: 0 20px; */
+            margin: 20px 20px;
+        }
+
+        .login-form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            /**/
+            border: 2px solid saddlebrown;
+
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            border: 2px solid blue;
+            width: 40%;
+            flex: 0.5;
+        }
+
+        .login-form input {
+            margin-top: 20px;
+            /* border: 2px solid saddlebrown; */
+        }
+
+        .submit {
+            /* border: 5px solid red; */
+            display: flex;
+            justify-content: start;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="a-link-1">
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+        </div>
+        <div class="a-link-2">
+            <a href="">Login</a>
+            <a href="">Sign Up</a>
+        </div>
+    </nav>
+    <section class="login-form-container">
+        <form class="login-form">
+            <h3>Please Login</h3>
+            <input type="email" name="" id="" placeholder="Your Email" required>
+            <input type="password" name="" id="" placeholder="Your password" required>
+            <input class="submit" type="submit" value="Login">
+        </form>
+    </section>
+</body>
+
+</html>

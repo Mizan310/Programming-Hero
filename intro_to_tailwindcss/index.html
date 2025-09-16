@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Intro to tailwind CSS</title>
+</head>
+
+<body>
+    <h1 class="text-7xl">Intro to Tailwind CSS</h1>
+    <h1 class="text-base text-7xl">Intro to Tailwind CSS</h1>
+    <h3 class="text-lg bg-blue-500 red-500">Exploring CSS via ultra Class</h3>
+    <p class="underline text-xl bg-red-600">This is exciting</p>
+    <p class="text-center text-2xl font-bold bg-linear-to-bl from-violet-500 to-fuchsia-500">I am exploring tailwind</p>
+    <p class="h-20 bg-linear-to-bl from-red-500 to-fuchsia-500">I am exploring tailwind</p>
+
+    <section class="w-1/2 border mb-2 mx-auto">
+        <h3>My Section title</h3>
+        <h3 class="text-3xl text-center text-blue-500 border mx-4">My Section title 2</h3>
+        <p class="border ps-12 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eum
+            consectetur, doloremque tempora dolores
+            maxime neque officiis tenetur, dolore fugit cupiditate tempore consequuntur magni corporis natus animi
+            facere sed repellat.</p>
+    </section>
+    <section class="max-w-7xl border">
+        <h3>My Section title 3</h3>
+        <h3 class="text-3xl text-center text-blue-500">My Section title 4</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eum consectetur, doloremque tempora dolores
+            maxime neque officiis tenetur, dolore fugit cupiditate tempore consequuntur magni corporis natus animi
+            facere sed repellat.</p>
+    </section>
+
+    <!-- Responsive section -->
+    <section
+        class="bg-blue-500 text-black-500 sm:bg-red-500 md:bg-pink-500 lg:bg-pink-500 xl:bg-green-500 2xl:bg-yellow-500 p-4">
+        <h3 class="text-3xl">My Responsive Section</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde odio alias quo maiores ducimus, maxime velit?
+            Esse odio, iusto praesentium assumenda, ut aspernatur sequi repellat, quo expedita aliquam provident facere
+            et corrupti quod nostrum! Odit repellendus libero numquam eius itaque doloremque perferendis molestias ullam
+            qui id. Ipsum non earum impedit?</p>
+    </section>
+    <!-- flex -->
+    <p class="text-2xl p-4">Flex</p>
+
+    <section class="lg:flex">
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-1</div>
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-2</div>
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-3</div>
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-4</div>
+    </section>
+
+    <section class="my-4 flex justify-between gap-4">
+        <div class="w-24 h-24 text-3xl bg-green-500 border-4 border-red-900">Item-11</div>
+        <div class="w-24 h-24 text-3xl bg-green-500 border-4 border-red-900">Item-12</div>
+        <div class="w-24 h-24 text-3xl bg-green-500 border-4 border-red-900">Item-13</div>
+    </section>
+
+    <section class="flex justify-around gap-4">
+        <div class="w-24 h-24 text-3xl bg-green-500 border-4 border-red-900">Item-14</div>
+        <div class="w-24 h-24 text-3xl bg-green-500 border-4 border-red-900">Item-15</div>
+        <div class="w-24 h-24 text-3xl bg-green-500 border-4 border-red-900">Item-16</div>
+    </section>
+
+    <section class="flex gap-4 p-4 flex-wrap justify-center">
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-1</div>
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-2</div>
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-3</div>
+        <div class="w-96 h-32 text-3xl bg-green-500 border-4 border-red-900">Item-4</div>
+    </section>
+
+    <p class="text-2xl p-4">Grid</p>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8">
+        <div class="rounded-md bg-pink-300 text-2xl flex justify-center">box-1</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-2</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-3</div>
+        <div class="rounded-md bg-pink-300 text-2xl flex justify-center items-center xl:row-span-4">box-4</div>
+        <div class="rounded-md bg-pink-300 text-2xl col-span-2">box-5</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-6</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-7</div>
+        <div class="rounded-md bg-pink-300 text-2xl lg:col-span-3">box-8</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-9</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-10</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-11</div>
+        <div class="rounded-md bg-pink-300 text-2xl">box-12</div>
+    </section>
+
+    <section>
+        <h3 class="bg-red-600 text-5xl m-2">Some Text</h3>
+    </section>
+</body>
+
+</html>

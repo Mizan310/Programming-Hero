@@ -27,6 +27,18 @@
             background-color: yellow;
             color: red;
         }
+        input, ::placeholder, :focus, ::selection {
+            color: red;
+            background-color: yellowgreen;
+            font-style: italic;
+        }
+        .btn {
+            background-color: lightblue;
+            border: 2px solid blue;
+            padding: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -35,6 +47,8 @@
     <h3>Heading-2</h3>
     <h3>Heading-3</h3>
 
+    <input type="text" placeholder="Type here...">
+
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis assumenda voluptas consectetur, ipsum
         mollitia voluptatibus hic maxime explicabo, animi at facere delectus deleniti tenetur, possimus vero sint
@@ -50,6 +64,15 @@
         mollitia voluptatibus hic maxime explicabo, animi at facere delectus deleniti tenetur, possimus vero sint
         facilis aliquid. Magni.
     </p>
+    <div class="button">
+        <button class="btn" onclick="showAlert()">Submit</button>
+    </div>
+    <script>
+        alert('This is a pseudo-element example');
+        function showAlert() {
+            alert('Button clicked!');
+        }
+    </script>
 </body>
 
 </html>
