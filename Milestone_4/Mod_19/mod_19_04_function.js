@@ -22,12 +22,12 @@ console.log("---------------------------");
 
 function difference(num1, num2) {
     const diff = num1 - num2
-    console.log(num1, num2, 'difference is ', diff);
+    // console.log(num1, num2, 'difference is ', diff);
     return diff
 }
 const FatherAge = 50
 const SonAge = 25
 const result = difference(FatherAge, SonAge)
-console.log(result);
+console.log(FatherAge, 'and', SonAge,'\'s', 'difference is ', result);
 
 

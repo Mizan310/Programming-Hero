@@ -11,3 +11,10 @@
 for (let num = 0; num < 5; num++) {
     console.log(num);
 }
+
+let num = 9
+let mul = 1
+for (let i = 1; i <= 10; i++) {
+    mul = num * i
+    console.log(num + " * " + i + " = " + mul)
+}
