@@ -11,13 +11,13 @@
 
         } */
 
-        /* p {
+        p {
             color: red;
-        } */
+        }
 
         #fifth,
         li {
-            font-size: 30px;
+            font-size: 20px;
             text-align: center;
         }
 
@@ -31,8 +31,13 @@
         }
 
         input[type="text"] {
-            font-size: 30px;
+            font-size: 5px;
             color: blue;
+        }
+
+        input[type="password"] {
+            font-size: 5px;
+            color: red;
         }
 
         .css {
@@ -64,8 +69,10 @@
         <li>Universal Selector</li>
     </ol>
     <form action="">
+        <label for="text" class = "css">Name: </label>
         <input type="text" placeholder="Enter your name" class="yellow" name="" id="fifth"> <br>
-        <input type="password" placeholder="Enter your password" name="" id="fifth">
+        <label for="password" class = "css">Password: </label>
+        <input type="password" placeholder="Enter your password" name="" id="fifth" class="yellow">
     </form>
     <div class="blog">
         <h3>My Blog</h3>

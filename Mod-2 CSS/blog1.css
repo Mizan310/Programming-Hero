@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 h3 {
     font-size: 1.5em;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
 }
 
@@ -35,7 +35,10 @@ h3 {
     /* background-size: cover; cover to fill the entire area */
     /* background-size: contain; contain to fit the image within the area */
     /* background-size: 500px; specific size */
-    background-size: 500px 300px; /* specific size */
+    /* specific size */
+    /* background-size: 500px 500px;  */
+    margin: 10px;
+    width: 100%;
 
     /* background-position: center; center the image in the header */
     /* display: flex; flexbox for layout */
@@ -45,20 +48,22 @@ h3 {
 
 .blog10 {
     /* background-color: lightgray; */
-    color: rgb(221, 6, 6);
+    /* color: rgb(221, 6, 6); */
     background-image: url('/Mod-1/Images/anime.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
     border: 1em solid green;
     background-position: 0 0;
 
-    border-top: 20px solid salmon;
+    border-top: 20px solid rgb(123, 58, 51);
     border-bottom: 20px solid green;
+    border-right: 20px solid blue;
+    border-left: 20px solid red;
     border-radius: 10px;
     margin: 10px;
-    padding: 10px;
+    padding: 100px;
     text-align: justify;
-    width: 90%;
+    width: 100%;
     height: 500px;
 }
 .blog11 {
@@ -70,13 +75,15 @@ h3 {
     border: 1em solid green;
     background-position: 50% 50%;
 
-    border-top: 20px solid salmon;
+    border-top: 20px solid rgb(123, 58, 51);
     border-bottom: 20px solid green;
+    border-right: 20px solid blue;
+    border-left: 20px solid red;
     border-radius: 10px;
     margin: 10px;
-    padding: 10px;
+    padding: 100px;
     text-align: justify;
-    width: 90%;
+    width: 100%;
     height: 500px;
 }
 .blog12 {
@@ -88,13 +95,15 @@ h3 {
     border: 1em solid green;
     background-position: 100% 100%;
 
-    border-top: 20px solid salmon;
+    border-top: 20px solid rgb(123, 58, 51);
     border-bottom: 20px solid green;
+    border-right: 20px solid blue;
+    border-left: 20px solid red;
     border-radius: 10px;
     margin: 10px;
-    padding: 10px;
+    padding: 100px;
     text-align: justify;
-    width: 90%;
+    width: 100%;
     height: 500px;
 }
 .blog13 {
@@ -103,23 +112,26 @@ h3 {
     background-image: url('/Mod-1/Images/anime.png');
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1em solid green;
+
+    /* border: 1em solid green; */
     /* background-position: 50% 0; */
 
-    border-top: 20px solid salmon;
+    border-top: 20px solid rgb(123, 58, 51);
     border-bottom: 20px solid green;
+    border-right: 20px solid blue;
+    border-left: 20px solid red;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
     text-align: justify;
-    width: 90%;
+    width: 100%;
     height: 500px;
 }
 
 .blog2 {
-    color: white;
+    color: rgb(255, 255, 255);
     background-image: url('/Mod-2\ CSS/header.jpg');
-    height: 250px;
+    height: 300px;
     /* background-position: left top; */
     /* background-color: lightgray; */
     /* border: 1em solid green; */
@@ -168,18 +180,19 @@ h3 {
     text-align: justify;
     padding: 10px 25px 20px 50px;
     /* top, right, bottom, left */
-
+    height: 400px;
 }
 
 .try1 {
     border: 2px solid red;
-    height: 200px;
+    margin: 20px;
+    display: inline-block;
 }
 
 .try2 {
     border: 2px solid red;
-    height: 200px;
-    display: block;
+    height: 100px;
+    /* display: block; */
 }
 
 .li1 {
@@ -205,9 +218,9 @@ h3 {
     display: inline-block; /* inline-block allows width and height to be set */
 }
 .dolor {
-    color: red;
+    color: rgb(255, 0, 0);
     font-weight: bold;
-    border: 2px solid black;
+    border: 2px solid rgb(205, 187, 187);
     height: 60px; /* height is set to 60px */
     display: inline-block; /* inline-block allows height and width to be set */
 }
